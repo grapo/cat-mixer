@@ -1,0 +1,4 @@
+%h1 Ten kot jest zmieszany
+=image_tag(url_for :action=> :mixer, :id => params[:id])
+=link_to "Wróć", :action => :index
+=link_to "Remixuj", :action => :mix, :id => params[:id]
